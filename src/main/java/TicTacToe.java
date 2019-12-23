@@ -97,7 +97,7 @@ public class TicTacToe {
         }
       }
     }
-    System.out.println("please, choose another row&column");
+    System.out.println("Please, Choose Another Row&Column");
     return false;
   }
 }

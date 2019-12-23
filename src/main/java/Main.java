@@ -11,7 +11,7 @@ public class Main {
     game.initializeBoard();
     System.out.println("TicTacToe Game Started");
     do {
-      System.out.println("Current board:");
+      System.out.println("Current Game Board:");
       game.printBoard();
       int row;
       int col;
@@ -27,7 +27,7 @@ public class Main {
     if (game.isBoardFull() && game.checkForWinner()) {
       System.out.println("Finished with draw");
     } else {
-      System.out.println("Current board:");
+      System.out.println("Current Game Board:");
       game.printBoard();
       game.changePlayer();
       System.out.println(Character.toUpperCase(game.getCurrentPlayer()) + " won.");
